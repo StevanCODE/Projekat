@@ -1,0 +1,81 @@
+#header {
+    padding-block: .5vh;
+    padding-left: 55vh;
+    position: relative;
+    background-color: rgba(147, 145, 167, 0.808);
+}
+
+#nav {
+    margin-top: 3vh;
+    font-size: 2.8vh;
+    color: white;
+}
+
+#navPar {
+    font-size: 4vh;
+    margin-left: 10vh;
+}
+
+#div1{
+    font-size: 4vh;
+    color: white;
+}
+
+#form{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-block: 20px;
+    position: relative;
+    font-size: 3.6vh;
+}
+
+
+#prihod{
+    margin-right: 48vh;
+    background-color: rgb(2, 112, 26);
+    color:rgb(91, 223, 91);
+    
+}
+
+#rashod{
+    margin-right: 48vh;
+    background-color: rgb(80, 0, 0);
+    color:rgb(204, 0, 0);
+}
+
+#prihod1{
+    font-size: 3vh;
+    color:rgb(91, 223, 91);
+}
+
+#rashod1{
+    text-align:justify;
+    font-size: 3vh;
+    color:rgb(204, 0, 0);
+    
+}
+
+#div2 {
+    float: left;
+    font-size: 3.7vh;
+    color:rgb(91, 223, 91);
+}
+
+#div3{
+    text-align:right;
+    float: right;
+    font-size: 3.7vh;
+    color: rgb(204, 0, 0);
+}
+
+
+#rmvBtn {
+    float:right;
+    text-align: right;
+}
+
+
+
+#rmvBtn2 {
+    display:inline-flex;
+}
