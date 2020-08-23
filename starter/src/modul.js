@@ -1,0 +1,17 @@
+const navSel = document.getElementById("nav")
+const navPar = document.createElement("p")
+const divSel = document.getElementById("div1")
+const p1 = document.createElement("p")
+const p2 = document.createElement("p")
+const input1 = document.getElementById("input1")
+const input2 = document.getElementById("input2")
+const select = document.getElementById("select")
+const div2 = document.getElementById("div2")
+const p3 = document.createElement("p")
+const div3 = document.getElementById("div3")
+const p4 = document.createElement("p")
+const rmvBtn = document.createElement("button")
+const rmvBtn2 = document.createElement("button")
+const btn1 = document.getElementById("btn1")
+
+export{navSel,navPar,divSel,p1,p2,input1,input2,select,div2,p3,div3,p4,rmvBtn,rmvBtn2,btn1}

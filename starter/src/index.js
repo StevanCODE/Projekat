@@ -1,21 +1,14 @@
 // nav
+import {navSel,navPar,divSel,p1,p2,input1,input2,select,div2,p3,div3,p4,rmvBtn,rmvBtn2,btn1} from "./modul"
 
 
-const navSel = document.getElementById("nav")
+
 navSel.innerText = "Dostupan budzet u Avgustu 2020:"
-const navPar = document.createElement("p")
 navSel.appendChild(navPar)
-
-const divSel = document.getElementById("div1")
-const p1 = document.createElement("p")
 p1.innerText = "Prihod: "
-const p2 = document.createElement("p")
 p2.innerText = "Rashod: "
+
 divSel.append(p1,p2)
-const input1 = document.getElementById("input1")
-input1
-const input2 = document.getElementById("input2")
-const select = document.getElementById("select")
 let prihod = 0
 let rashod = 0
 let prihodList = []
@@ -25,26 +18,16 @@ let budzet = prihod - rashod
 navPar.innerText = budzet
 navPar.id = "navPar"
 
-
-
 // Donja lista
-
-const div2 = document.getElementById("div2")
-const p3 = document.createElement("p")
 div2.appendChild(p3)
-
-const div3 = document.getElementById("div3")
-const p4 = document.createElement("p")
 div3.appendChild(p4)
 p1.id = "prihod"
 p2.id = "rashod"
 p3.id = "prihod1"
 p4.id = "rashod1"
 
-
-
 // Button 
-const btn1 = document.getElementById("btn1")
+
 btn1.addEventListener("click",el =>{
     el.preventDefault()
     if(select.value === "prihod" && parseInt(input2.value) > 0 && input1.value != ""){
@@ -97,16 +80,12 @@ btn1.addEventListener("click",el =>{
 })
 
 
-const rmvBtn = document.createElement("button")
 rmvBtn.id = "rmvBtn"
 rmvBtn.innerText = "X"
 
-const rmvBtn2 = document.createElement("button")
+
 rmvBtn2.id = "rmvBtn2"
 rmvBtn2.innerText = "X"
-
-
-
 
 
 p3.addEventListener("mouseover",el=>{
@@ -145,6 +124,7 @@ p4.addEventListener("mouseout",el=>{
 
 rmvBtn.addEventListener("click",()=>{
     let novac = prihodList.pop()
+    novac
     p3.innerText = prihodList.join("")
 
 })
